@@ -1,0 +1,294 @@
+Checklist mobile application:
+1. Installation/removal/rolling of versions
+
+2. Launching the application (displaying the splash screen)
+
+3. The performance of the main functionality of the application:
+• Authorization (by phone number/via social networks/e-mail)
+• Registration (by phone number/via social networks/e-mail)
+• Onboarding new users
+• Validation of required fields
+• Navigation between application sections
+• Editing data in the user profile
+• Payment verification
+• Testing filters
+
+4. Correct display of errors
+
+5. Working with files (sending/receiving/viewing)
+
+6. Testing timeouts
+
+7. Testing stubs (no internet connection/no products, etc.)
+
+8. Testing pop-ups, alerts
+
+9. Testing WebView
+
+10. Scroll/swipe elements
+
+11. Testing PUSH notifications
+
+12. Minimizing/expanding the application
+
+13. Different types of connections (cellular/Wi-Fi)
+
+14. Screen orientation (landscape/portrait)
+
+15. Dark/light themes
+
+16. Advertising in the app
+
+17. Sharing content in the social the network
+
+18. Application work in the background
+
+19. Page pagination
+
+20. Privacy policy and other links to documents
+
+21. Correct display of geolocation
+
+22. Information about transactions (checks, etc.)
+
+23. Various payment methods (Google Pay, Apple Pay)
+
+24. Testing sensors (illumination, device temperature, gyroscope, etc.)
+
+25. Testing interruptions (incoming call/SMS/push/alarm/do not disturb mode, etc.)
+
+26. Connecting external devices (memory card/headphones, etc.)
+
+27. Testing permissions (access to camera/microphone/gallery/etc.)
+
+28. User data (passwords) are not transmitted in clear text
+
+29. In the fields with password entry and password confirmation, data is hidden by asterisks
+
+30. All elements in the application are translated into the respective language
+
+31. The texts are protected inside the application and the user in the application settings can set the required language
+
+32. The texts depend on the language in the system settings
+
+33. Texts come from the server
+
+34. Correct display of date formats (YEAR - MONTH - DAY or DAY - MONTH - YEAR)
+
+35. Correct display of time depending on the time zone
+
+36. Correct display of elements on devices with different screen resolutions
+
+37. All fonts meet the requirements
+
+38. All texts are correctly aligned
+
+39. All error messages are correct, without spelling and grammatical errors
+
+40. Correct screen titles
+
+41. There are placeholders in the search lines
+
+42. Inactive elements are displayed in gray
+
+43. Links to documents lead to the corresponding section on the site
+
+44. Animation between transitions
+
+45. Correct return to the previous screen
+
+46. ​​Supports basic gestures when working with touch screens (swipe back, etc.)
+
+47. Pixel Perfect
+
+48. High load of the central processor
+
+49. Out of memory
+
+50. Loading the battery
+
+51. Refusals
+
+52. Low network bandwidth
+
+53. A large number of user interactions with the application
+
+54. The performance of the application on various devices from different manufacturers
+
+55. Application load time
+
+56. Processing requests
+
+57. Data caching
+
+58. Consumption of resources by the application (for example, battery consumption)
+
+
+Checklist iOS App Store Review Guidelines:
+https://developer.apple.com/app-store/review/guidelines/
+
+1. Installing the App on the device
+
+2. Removing the App from the device
+
+3. Hardware compatibility for iPhone/iPad/iMac/Macbook
+
+4. Registration
+
+5. Validation of input fields
+
+6. Screen lock
+
+7. System notification
+
+8. Minimizing the application
+
+9. Change screen orientation
+
+10. Connect/Disconnect headphones
+
+11. Message about connecting the charger
+
+12. Force termination of the application
+
+13. Incoming call
+
+14. Sleep mode
+
+15. Testing navigation
+
+iOS release notes update list:
+https://developer.apple.com/documentation/ios-ipados-release-notes
+
+iOS & iPadOS 15.2
+
+1. Record app activity in privacy settings, allowing users to save a summary of data and internet access for apps on their devices
+
+2. StoreKit APIs that present a refund request sheet can be tested with StoreKit Testing in Xcode
+
+3. StoreKit APIs that present a sheet in your app to manage subscriptions can be tested with StoreKit Testing in Xcode
+
+4. New SKTestSession. TimeRate values ​​are available to use in automated tests with the StoreKit Test framework
+
+5. Pay-as-you-go offers no longer appear incorrectly on pay slips when testing subscriptions with StoreKit Testing in Xcode
+
+6. Application "Commands" can now read the contents of the screen
+
+7. iCloud + subscribers can now access and use Hide My Email directly from the Mail app
+
+8. Auto Call can now be set up to use one of two methods for initiating an emergency call: holding the side button together with a volume button, or rapidly pressing the side button multiple times. Both methods now show a longer, 8-second countdown before placing an emergency call
+
+9. Tags can now be bulk renamed and deleted
+
+10. Welcome screen in "Weather"
+
+11. Clothes for "Memoji"
+
+12. New icon for the "Maps" application
+
+13. SharePlay function for FaceTime calls
+
+14. Quick notes on iPad. Now they can be activated by swiping from the lower right corner of the screen
+
+15. Returning the refresh button to the Safari address bar
+
+iOS guidelines checklist:
+https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/
+
+1. Simple navigation
+
+2. Smooth movement and clear beautiful interface
+
+3. Convenient interface
+
+4. Aesthetic integrity
+
+5. Sequence
+
+6. Display Splash Screen
+
+7. Screen size and orientation
+
+8. Simple and convenient registration/login forms
+
+9. High-quality images
+
+10. Uniform style of icons
+
+11. Color contrast between main font and background
+
+12. Choosing a dark system-wide view
+
+13. Scrolling the tape
+
+14. Welcome screen
+
+15. Screensaver when starting the application
+
+
+
+Checklist for the design of Android Applications:
+https://developer.android.com/docs/quality-guidelines/core-app-quality
+
+1. There are no offsets of the page elements (the arrangement of the elements corresponds to the declared in the layout)
+
+2. Navigating with gestures to return to the home screen
+
+3. Landscape and portrait orientation (if possible), as well as folding/unfolding
+
+4. There is no text clipping on the pages
+
+5. Display graphics, text, images and other elements of the user interface without noticeable distortion, blurring or pixelation
+
+6. The pages contain all the declared elements
+
+7. Elements do not overlap or "overlap" on top of each other
+
+8. Touch targets are at least 48dp in size
+
+9. There are no responsive design artifacts
+
+10. None of the elements go beyond the boundaries of the screen
+
+12. Display of text and text blocks is acceptable for each of the supported languages
+
+13. There are no wrong word hyphenation inside buttons or icons
+
+14. There is enough space between the text and the surrounding elements
+
+15. App content and all web content support dark theme
+
+
+
+Android Apps quality checklist:
+https://developer.android.com/quality
+
+1. Successful installation from app store
+
+2. Installing updates does not cause errors
+
+3. Cancellation of the installation occurs correctly, with the removal of all traces of the application
+
+4. Reinstallation after cancellation is possible and successful
+
+5. The application starts when you click on its icon
+
+6. Application management is intuitive
+
+7. The battery consumption corresponds to the load generated by the application
+
+8. No "crashes" of the application and/or unexpected pop-ups
+
+9. The application works after updating the OS
+
+10. The interruption of the application by a phone call is handled correctly
+
+11. When changing the network, the application is not interrupted
+
+12. The application correctly handles multitouch gestures
+
+13. The application correctly handles changing the display scale
+
+14. Reinstallation after cancellation is possible and successful
+
+15. The application is launched by links from other applications
