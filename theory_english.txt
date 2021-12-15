@@ -1,0 +1,94 @@
+7 principles of software testing:
+	✓	testing shows the presence of defects, not their absence
+
+	✓	exhaustive testing is impossible
+
+	✓	early testing saves time and money
+
+	✓	defects cluster together
+
+	✓	beware the Pesticide Paradox
+
+	✓	testing is context-dependent
+
+	✓	absence of errors is a fallacy
+
+
+
+
+
+
+
+Levels of Testing:
+	✓	Unit Testing: checks if software components are fulfilling functionalities or not
+
+	✓	Integration Testing: checks the data flow from one module to other modules
+
+	✓	System Testing: evaluates both functional and non-functional needs for the testing
+
+	✓	Acceptance Testing: checks the requirements of a specification or contract are met as per its delivery
+
+
+
+
+
+
+
+Testing classification by source code visible level:
+	✓	«Black box» - internals not know. Testing as user
+
+	✓	«White box» - internals fully known. Testing as developer
+
+	✓	«Grey box» - internals relevant to testing know. Testing as user with access to internals
+
+
+
+
+
+Testing classification by code execution:
+	✓	static - without running code
+
+	✓	dynamic - with running code
+
+
+
+
+
+Testing classification by automation level:
+	✓	Manual testing - human tester design test cases, run all the designed cases by hand
+
+	✓	Automated testing - human tester design test cases
+
+
+
+
+
+
+Testing classification according to the principles of working with the application:
+	✓	Positive Testing - is a type of software testing that is performed by assuming everything will be as expected. It is performed with the assumption that only valid and relevant things will occur. data set and all other functionalities will be as expected
+
+	✓	Negative Testing - is a type of software testing that is performed to check the system for unexpected conditions. Negative testing plays a much important role in high-performance software development. It checks whether on such unexpected conditions what will be the behavior of the software
+
+
+
+
+Testing classification in descending order of importance of the tested functions (by the level of functional testing):
+	✓	Smoke testing - is a confirmation for QA team to proceed with further software testing. It consists of a minimal set of tests run on each build to test software functionalities
+
+	✓	Critical path test - In practice, most often at this level of testing the bulk of product requirements are checked. For example, choosing a font, typing, inserting pictures, etc.
+
+	✓	Extended testing - checking all (other) functionality declared in the requirements
+
+
+
+
+
+
+Test types associated with changes:
+	✓	smoke testing
+
+	✓	regression testing
+
+	✓	build verification test
+		
+	✓	sanity testing
