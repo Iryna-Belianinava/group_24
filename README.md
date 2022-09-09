@@ -5,7 +5,7 @@ You can watch the screen video https://youtu.be/uk5HM7LLbpk
 1. Open "Chrome DevTools"
 2. Go to the "Elements" panel
 3. Find the "Submit" button with the inspector and align the word "Submit" to the center
-4. Enable mobile mode "Device Mode
+4. Enable mobile mode "Device Mode"
 5. Set "Dimensions: Responsive"
 6. Select "Responsive - Mobile"
 7. Demonstrate design work "Responsive"
